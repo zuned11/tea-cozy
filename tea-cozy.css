@@ -1,0 +1,51 @@
+* {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	z-index: 2;
+	height: 69px;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+	opacity: 1;
+	background-color: black;
+
+
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.nav-links {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.link {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: underline;
+}
+
+#header-logo {
+	height: 50px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+article {
+	padding-top: 50px;
+}
+
+hero-iamge {
+	
+}
+
+
