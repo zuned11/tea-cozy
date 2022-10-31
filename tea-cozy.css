@@ -22,6 +22,10 @@ header {
 	justify-content: space-between;
 }
 
+body {
+	text-align: center;
+}
+
 .nav-links {
 	display: flex;
 	flex-flow: row nowrap;
@@ -41,11 +45,75 @@ header {
 }
 
 article {
-	padding-top: 50px;
+	padding-top: 62px;
 }
 
-hero-iamge {
+#hero-container {
+	background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	align-content: center;
+	height: 700px;
+	width: 1200px;
+	position: relative;
+	text-align: center;
+	margin: auto;
+}
+
+#hero-text {
+	position: relative;
+	background-color: black;
+	opacity: 1;
+	top: 300px;
+}
+
+#monthly-teas {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+
+	margin: auto;
+	height: auto;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#totm {
+	font-size: 36px;
+	margin: 50px 0 0 0;
+}
+
+#totm-text {
+	margin: 15px 0 25px 0;
+}
+
+#monthly-teas-container {
+	display: flex;
+	flex-flow: row wrap;
+	align-content: space-around;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.monthly-tea {
+	height: auto;
+
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.tea-image {
+	height: 200px;
+	width: 300px;
+}
+
+.totm-text-tea {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#locations {
 	
 }
-
-
